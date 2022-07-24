@@ -1,0 +1,58 @@
+
+.nav-sidebar ul{
+    padding-left: 0;
+}
+.nav-sidebar ul li{
+    list-style: none;
+}
+/* all products */
+#all_products{
+    text-align: center;
+    padding-top: 80px;
+}
+.all_pro ul li{
+    list-style: none;  
+    width: 20%;
+    text-align: center;
+}
+.all_pro ul li:hover .all_pro_hed{
+    color: #fff !important;
+    background-color: rgb(37, 37, 37);
+}
+.all_pro_hed{
+    color: rgb(37, 37, 37) !important;
+}
+
+/* slick slider */
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}

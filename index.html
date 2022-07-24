@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Class Project">
+    <meta name="description" content="This is a class project.">
+    <meta name="keywords" content="class-project, HTML, CSS, bootstrap">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="30 days">
+    <meta name="author" content="Khairon Nahar">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- fonts link -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Page-1</a>
+                    </li>
+                    <li class="nav-item  mx-5">
+                        <a class="nav-link" href="jQuery_plugin_3/index.html" target="_blank">Page-2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jQuery_plugin_1/index.html" target="_blank">Page-3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- animation -->
+    <div id="container mt-5">
+        <div id="main" class="container">
+            <section class="wow fadeInDown" style="background-color: #f1c40f;">
+            <h1 class="text-center pt-5">Fade In Down</h1></section>
+            <section class="wow pulse" style="background-color: #e74c3c;" data-wow-iteration="infinite"
+                data-wow-duration="1500ms">
+                <h1 class="text-center pt-5">Pulse</h1>
+            </section>
+            <section class="section--purple wow slideInRight" data-wow-delay="0.5s">
+                <h1 class="text-center pt-5">Slide In Right</h1>
+            </section>
+            <section class="section--blue wow bounceInLeft" data-wow-offset="200">
+                <h1 class="text-center pt-5">Bounce In Left</h1>
+            </section>
+            <section class="section--green wow slideInLeft" data-wow-duration="2s">
+                <h1 class="text-center pt-5">Slide In Left</h1>
+            </section>
+            <button id="moar">LOAD MOAR!!</button>
+        </div>
+    </div>
+
+    <!-- count down -->
+    <section class="container">
+        <div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h2>Total Projects</h2>
+                    <span class="counter" style="display: inline-block; width: 32%">200<span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Total Earning</h2>
+                    <span style="display: inline-block; width: 32%"><span>$</span><span class="counter">4,000</span></span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Client Satisfaction</h2>
+                    <span style="display: inline-block; width: 32%"><span class="counter">100</span><span>%</span></span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- jaca script -->
+
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

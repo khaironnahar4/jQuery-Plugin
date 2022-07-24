@@ -1,0 +1,2 @@
+jQery work
+$(selector).event(effect);
